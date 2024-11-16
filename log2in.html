@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Disney+ Hotstar Clone</title>
+</head>
+<body style="background-image: url('IMG/background-2.png'); background-size: cover; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: 'Roboto', sans-serif; color: white;">
+    
+    <!--HOTSTAR HEADING-->
+    <div style="padding: 5%;">
+        <img src="IMG/logo.png" alt="Disney+ Hotstar Logo" style="width: 100%; max-width: 200px;">
+    </div>
+
+    <!--Form Start-->
+    <div style="background-color: rgba(8, 8, 36, 0.9); border-radius: 10px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); width: 40%; padding: 20px; text-align: left;">
+        <h1 style="margin-bottom: 20px; font-size: 2em; text-align: center;">Login Here!!!</h1>
+        <form>
+            <label for="name" style="font-size: 1.2em; display: block; margin: 10px 0 5px; color: white;">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required style="width: 90%; height: 40px; padding: 10px; border: none; border-radius: 5px; margin-bottom: 15px; background-color: white; color: #333; font-size: 1em; transition: border 0.3s;">
+            
+            <label for="email" style="font-size: 1.2em; display: block; margin: 10px 0 5px; color: white;">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required style="width: 90%; height: 40px; padding: 10px; border: none; border-radius: 5px; margin-bottom: 15px; background-color: white; color: #333; font-size: 1em; transition: border 0.3s;">
+            
+            <label for="password" style="font-size: 1.2em; display: block; margin: 10px 0 5px; color: white;">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password" required style="width: 90%; height: 40px; padding: 10px; border: none; border-radius: 5px; margin-bottom: 15px; background-color: white; color: #333; font-size: 1em; transition: border 0.3s;">
+            
+            <div style="display: flex; justify-content: space-between;">
+                <input type="button" value="Submit" onclick="window.location.href='homi.html'" style="width: 45%; height: 40px; border: none; border-radius: 5px; background-color: #1f80e0; color: white; font-size: 1em; cursor: pointer; transition: background-color 0.3s; margin-right: 5%;">
+                <input type="reset" value="Reset" style="width: 45%; height: 40px; border: none; border-radius: 5px; background-color: #1f80e0; color: white; font-size: 1em; cursor: pointer; transition: background-color 0.3s;">
+            </div>
+        </form>
+    </div>
+
+    <marquee behavior="" direction="left" scrollamount="20" loop="infinite" style="position: absolute; bottom: 0; width: 100%; background-color: rgba(8, 8, 36, 0.8); color: white; text-align: center; font-size: 24px; padding: 10px 0;">
+        This is a clone page of Disney+ Hotstar
+    </marquee>
+</body>
+</html>
